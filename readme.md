@@ -1,6 +1,6 @@
 # MODX Elements API
 
-This extra enables you to use the VSCode extension MODX: Elements.
+This extra enables you to use the VSCode extension [MODX: Elements](https://marketplace.visualstudio.com/items?itemName=Henninghh990.vscode-modx-elements).
 
 It's a simple REST API to allow creating and editing elements on your MODX site through VSCode without using FTP.
 
