@@ -108,10 +108,6 @@ class Api {
             $obj->set($nameField, $name);
         }
 
-
-        $this->success(['content' => $obj->toArray() ]);
-
-
         $saved = $obj->save(true);
         if(!$saved) $this->failure('Could not save');
         $this->success(['saved' => $saved]);
